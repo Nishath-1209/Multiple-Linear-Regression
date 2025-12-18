@@ -14,7 +14,7 @@ st.set_page_config("Multiple Linear Regression", layout="centered")
 def load_css(file):
     with open(file) as f:
         st.markdown(f"<style>{f.read()}</style", unsafe_allow_html=True)
-load_css("Style.css")
+load_css("style.css")
  
 
 st.markdown("""
@@ -96,4 +96,5 @@ size=st.slider("Group size", int(df["size"].min()),int(df["size"].max()),2)
 input_scaled=scaler.transform([[bill,size]])
 tip=model.predict(input_scaled)[0]
 st.markdown(f'<div class="prediction-box">Predicted Tip:${tip:.2f}</div>',unsafe_allow_html=True)
+
 st.markdown('</div',unsafe_allow_html=True)

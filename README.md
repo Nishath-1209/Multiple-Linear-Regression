@@ -84,12 +84,13 @@ Regression line plotted using Matplotlib
 👉 https://github.com/Nishath-1209/Multiple-Linear-Regression.git
 
 📁 Project Structure
+```
 Multiple-Linear-Regression/
 │
 ├── app_multiple_linear_regression.py   # Main Streamlit app
 ├── style.css                           # Custom CSS styling
 ├── requirements.txt                    # Project dependencies
-├── README.md                           # Project documentation
+```
 
 🛠️ Tech Stack
 

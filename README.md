@@ -10,6 +10,7 @@ The project demonstrates data preprocessing, feature scaling, model training, ev
 This project showcases how Multiple Linear Regression can be applied to real-world data by considering multiple independent variables.
 Users can interactively enter values and instantly see the predicted tip amount.
 
+
 📂 Dataset Information
 
 Dataset: tips dataset (Seaborn)
